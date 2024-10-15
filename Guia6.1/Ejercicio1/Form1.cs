@@ -17,8 +17,7 @@ namespace Ejercicio1
         {
             InitializeComponent();
         }
-        VerificarString vs = new VerificarString();
-        VerificarRegex vr = new VerificarRegex();
+        ITExto it;
         List<string> list = new List<string> { "OXY333", "OYZ 013", "AAA 123", "BCD 456", "AB 123 CD", "YZ5432EF", "QW 3456 AB" };
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
@@ -38,19 +37,21 @@ namespace Ejercicio1
         {
             if (rbRegex.Checked)
             {
+                it = new VerificarRegex();
                 tbMultiline.Clear();
                 foreach (string s in list)
                 {
-                    tbMultiline.Text += vr.VerificarTexto(s) + $"\r\n";
+                    tbMultiline.Text += it.VerificarTexto(s) + $"\r\n";
                 }
 
             }
             if (rbString.Checked)
             {
+                it = new VerificarString();
                 tbMultiline.Clear();
                 foreach (string s in list)
                 {
-                    tbMultiline.Text += vs.VerificarTexto(s) + $"\r\n";
+                    tbMultiline.Text += it.VerificarTexto(s) + $"\r\n";
                 }
             }
         }
