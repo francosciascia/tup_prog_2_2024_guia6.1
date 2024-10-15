@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexEditor", "RegexEditor\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utilidades", "utilidades", "{96C868EA-C459-48F2-B5B6-F38C9E0103E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1", "Ejercicio1\Ejercicio1.csproj", "{4196646E-2D28-41B4-BA6A-DAF5709DC7A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{8FDC2FEB-1405-43BF-BF11-655FF8A95F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FDC2FEB-1405-43BF-BF11-655FF8A95F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FDC2FEB-1405-43BF-BF11-655FF8A95F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4196646E-2D28-41B4-BA6A-DAF5709DC7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4196646E-2D28-41B4-BA6A-DAF5709DC7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4196646E-2D28-41B4-BA6A-DAF5709DC7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4196646E-2D28-41B4-BA6A-DAF5709DC7A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
